@@ -2,5 +2,5 @@ language: scala
 scala:
   - 2.12.9
 jdk:
-  -openjdk8
-script: sbt ++$TRAVIS_SCALA_VERSION test
+  -openjdk15
+script: sbt run
