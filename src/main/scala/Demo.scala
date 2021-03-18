@@ -1,3 +1,4 @@
 object Demo extends App{
-    println("hello")
+    val a = "Parth"
+    println("hello "+ a)
 }
