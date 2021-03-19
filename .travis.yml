@@ -4,4 +4,4 @@ scala:
 jdk:
   -openjdk15
 script:
-  - make build
+  - sbt test
