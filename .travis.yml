@@ -3,5 +3,14 @@ scala:
   - 2.12.9
 jdk:
   -openjdk15
-script:
-  - sbt test
+stages:
+  -dev
+jobs:
+  include:
+    -stage:dev
+     name:"test1"
+     script:sbt run demo2
+
+    -script:sbt run demo
+     name:test2
+
