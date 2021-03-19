@@ -4,4 +4,4 @@ scala:
 jdk:
   -openjdk15
 script:
-  - sbt ++$TRAVIS_SCALA_VERSION src/scala/Demo
+  - sbt ++$TRAVIS_SCALA_VERSION test
