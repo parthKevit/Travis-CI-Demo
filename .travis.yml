@@ -3,5 +3,9 @@ scala:
   - 2.12.9
 jdk:
   -openjdk15
+env:
+  matrix:
+    - TARGET="sbt test"
+    - TARGET="sbt run"
 script:
-  - sbt test
+  - make $TARGET
