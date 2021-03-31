@@ -1,5 +1,5 @@
-class ExceptionHandaling {
-  @throws(classOf[ArrayIndexOutOfBoundsException])
+class ExceptionHang {
+  @throws(classOf[ArrdexOutOfBoundsException])
   def divide(a:Int,b:Int): Unit ={
     try{
       a/b
